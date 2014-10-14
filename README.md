@@ -23,7 +23,7 @@ itemProvider.loadItemForTypeIdentifier(kUTTypeImage as NSString, options: nil, c
 ```
 
 This Program falls.
-Swift can't cast id<NSSecureCoding> to UIImage.
+Swift can't cast NSSecureCoding to UIImage.
 
 ```objective-c
 __weak UIImageView *imageView = self.imageView;
